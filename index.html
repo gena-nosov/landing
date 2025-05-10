@@ -52,16 +52,16 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger text-uppercase" href="#history">Об игре</a>
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger text-uppercase" href="#history">${ABOUT_NAVBAR}</a>
             </li>
             <!--<li class="nav-item mx-0 mx-lg-1">
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger text-uppercase" href="#features">Фичи</a>
             </li>-->
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger text-uppercase" href="#download">Скачать / Download</a>
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger text-uppercase" href="#download">${DOWNLOAD_NAVBAR}</a>
             </li>
 			<li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger text-uppercase" href="#contacts">С кем сыграть</a>
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger text-uppercase" href="#contacts">${COMMUNITY_NAVBAR}</a>
             </li>
 			          </ul>
         </div>
@@ -73,12 +73,12 @@
       <div class="container">
         <img class="img-fluid mb-5 d-block mx-auto" src="img/logo350.png" alt="Doom 2D forever">
         <!--h1 class="text-uppercase mb-0">Doom 2D Forever</h1 -->
-         <h2 class="f1ont-weight-light mb-0 t1ext-uppercase" style="display:block;padding:10px;background-color:#1a252f;">Платформер с сетевой игрой во вселенной классического Doom</h2>
+         <h2 class="f1ont-weight-light mb-0 t1ext-uppercase" style="display:block;padding:10px;background-color:#1a252f;">${DESCRIPTION_SHORT}</h2>
 
 		 <div class="text-center mt-4">
           <a class="btn btn-xl btn-primary text-uppercase font-weight-bold" href="#download">
             <i class="fa fa-download mr-2"></i>
-            Download (РУС/ENG)
+            ${DOWNLOAD_LARGE}
           </a>
         </div>
       </div>
@@ -87,16 +87,16 @@
 	<!-- About Section -->
     <section class="mb-0 bg-primary " id="history">
       <div class="container">
-        <h2 class="text-center text-uppercase text-secondary">Об игре</h2>
+        <h2 class="text-center text-uppercase text-secondary">${ABOUT_HEADER}</h2>
         <hr class="dark mb-5">
         <div class="row">
 		 <div class="col ml-auto">
-			<p class="lead">В 1993 году свет узрел Doom, детище id Software.</p>
-			<p class="lead">Чуть позже, в 1996, три подмосковных школьника — Алексей Волынсков, Владимир Калинин и Евгений Ковтунов — создали Doom2D. Пародию, которая обернулась легендой.</p>
-			<p class="lead">Doom2D не мог похвастаться трёхмерным движком. Зато он работал заметно шустрее именитого тёзки, и в него можно было играть вдвоём или друг против друга на одном 386-ом компьютере, рядовом для обитателей бывшего USSR. Вдобавок к игре прилагался удобный редактор карт, позволявший делать собственные уровни всем желающим.</p>
-			<p class="lead">В 2004 году rs.falcon и DEAD перенесли Doom2D на Windows, выпустив Doom2D Forever. Появилось сообщество, сменилась эпоха, и сегодня Doom2D Forever работает на большинстве ПК и Android-устройств — с ураганной игрой по сети, улучшенной графикой, сотнями уровней для прохождения и массой усовершенствований.</p>
+			<p class="lead">${PROGREV1}</p>
+			<p class="lead">${PROGREV2}</p>
+			<p class="lead">${PROGREV3}</p>
+			<p class="lead">${PROGREV4}</p>
 
-			<p class="lead">Игра с открытыми исходниками, написана на FPC Delphi.</p>
+			<p class="lead">${PROGREV5}</p>
 			<p class="lead">&nbsp;</p>
         </div>
 
@@ -179,44 +179,43 @@
 
     <section id="download" class="text-secondary">
       <div class="container">
-        <h2 class="text-center text-uppercase text-secondary mb-0">Скачать</h2>
+        <h2 class="text-center text-uppercase text-secondary mb-0">${DOWNLOAD_HEADER}</h2>
         <br/>
-        <h4 class="text-center text-uppercase text-secondary mb-0">РУС/ENG</h2>
+        <h4 class="text-center text-uppercase text-secondary mb-0">${DOWNLOAD_HEADER_LANG}</h2>
         <hr class="dark mb-5 ">
         <div class="row " >
           <div class="col-lg-8 mx-auto">
 
 			<h3>Windows XP/7/10/11</h3>
 <ul>
-<li><h5><a href="https://github.com/Doom2D/flake.nix/releases/latest/download/doom2df_windows.x86.zip">Сборка для x86 и x64 (.zip)</a></h5></li>
+<li><h5><a href="https://github.com/Doom2D/flake.nix/releases/latest/download/doom2df_windows.x86.zip">${DOWNLOAD_WINDOWS}</a></h5></li>
 <!-- <li><h5><a href="https://github.com/Doom2D/flake.nix/releases/latest/download/doom2df_win64.x86-64.zip">Doom2D Forever, Windows XP/7/10/11 (RUS/ENG, x64)</a></h5></li> -->
 </ul>
 
 <br>
 <h3>Android 4.0.1+</h3>
 <ul>
-<li><h5><a href="https://github.com/Doom2D/flake.nix/releases/latest/download/Doom2D-Forever.apk">Приложение для ARMv8 и ARMv7 (.apk)</a></h5></li>
+<li><h5><a href="https://github.com/Doom2D/flake.nix/releases/latest/download/Doom2D-Forever.apk">${DOWNLOAD_ANDROID}</a></h5></li>
 </ul>
 
 <br>
 <h3>macOS 11.0+</h3>
 <ul>
-<li><h5><a href="https://github.com/Doom2D/flake.nix/releases/latest/download/Doom2D-Forever.dmg ">Образ для Apple M и Intel 64 (.dmg)</a></h5></li>
+<li><h5><a href="https://github.com/Doom2D/flake.nix/releases/latest/download/Doom2D-Forever.dmg ">${DOWNLOAD_MACOS}</a></h5></li>
 </ul>
 
 <br>
 <h3>Linux</h3>
 <ul>
-<li><h5><a href="https://deadsoftware.ru/files/terminalhash/d2df-linux-amd64.tar.gz">Сборка для amd64 (.tar.gz)</a></h5></li>
-<li><h5><a href="https://deadsoftware.ru/files/terminalhash/d2df-linux-i386.tar.gz">Сборка для i686 (.tar.gz)</a></h5></li>
+<li><h5><a href="https://deadsoftware.ru/files/terminalhash/d2df-linux-amd64.tar.gz">${DOWNLOAD_LINUX_AMD64}</a></h5></li>
+<li><h5><a href="https://deadsoftware.ru/files/terminalhash/d2df-linux-i386.tar.gz">${DOWNLOAD_LINUX_I386}</a></h5></li>
 <!--<p>Игра требует следующие пакеты: libgme opus opusfile libvorbis mpg123 openal enet libmodplug sdl2 xmp. Названия могут разниться между дистрибутивами.</p>-->
-<li><h5><a href="https://aur.archlinux.org/packages?O=0&SeB=nd&K=doom2d&outdated=&SB=p&SO=d&PP=50&submit=Go">Пакеты для скачивания из AUR</a></h5></li>
-<p>Обсуждение <a href="/forum/viewtopic.php?f=11&t=2919">на форуме</a></p>
+<li><h5><a href="https://aur.archlinux.org/packages?O=0&SeB=nd&K=doom2d&outdated=&SB=p&SO=d&PP=50&submit=Go">${DOWNLOAD_LINUX_AUR}</a></h5></li>
 </ul>
 
 
 <br>
-<h3>Исходный код и разработка:</h3>
+<h3>${DEVELOPMENT_HEADER}</h3>
 <ul>
 <li><h5><a href="https://github.com/Doom2D/Doom2D-Forever">https://github.com/Doom2D/Doom2D-Forever</a></h5></li>
 
@@ -342,7 +341,7 @@
     <!-- Footer -->
     <footer class="footer text-center" id="contacts">
       <div class="container">
-		  <h1 class="text-center text-uppercase  mb-0">Join us</h1>
+		  <h1 class="text-center text-uppercase  mb-0">${COMMUNITY_HEADER}</h1>
         <hr class="light mb-5">
         <div class="row">
           <div class="col-md-3">
@@ -372,7 +371,7 @@
 
     <div class="copyright py-4 text-center text-white">
       <div class="container">
-        <small>doom2d.org, since 2004. <a href="/index/news/index.html">Старый сайт</a></small>
+        <small>${COPYRIGHT_MESSAGE} <a href="/index/news/index.html">${OLD_SITE}</a></small>
       </div>
     </div>
 
