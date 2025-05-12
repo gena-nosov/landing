@@ -45,6 +45,7 @@ stdenv.mkDerivation {
     allLanguages = lib.concatStringsSep "\n" (lib.map moveLang languages);
   in ''
     mkdir -p $out/
+    cp base.html $out/index.html
     ${allLanguages}
   '';
 }
